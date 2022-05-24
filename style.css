@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    height: 100vh;
+    background: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+}
+.box2{
+    height: 300px;
+    width: 400px;
+    background: #111111;
+    border-radius: 20px;
+}
+p{
+    color: #00f800;
+    font-size: 100px;
+}
+#btn1{
+    height: 60px;
+    width: 100px;
+    border: none;
+    outline: none;
+    background: #1ab712;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btn2{
+    height: 60px;
+    width: 100px;
+    border: none;
+    outline: none;
+    background: #ff4732;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
